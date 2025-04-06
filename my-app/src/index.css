@@ -1,0 +1,78 @@
+body{
+  background-color: #f0f2f5;
+}
+.card{
+  width: 288px;
+  height: 178px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 1.4rem;
+}
+.bir{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.5rem;
+}
+.container{
+  width:  95%;
+  gap: 1.5rem;
+  margin: 2rem 3rem;
+}
+.container2{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.btn{
+  padding: 14px 18px;
+  cursor: pointer;
+  border-radius: 2.4rem;
+  border: none;
+  background-color: #fff;
+  font-weight: bold;
+}
+.btn2{
+  display: flex;
+  gap: 0.5rem;
+  margin:2rem 0;
+}
+.btn span{
+  background-color:  #f0f2f5;
+  padding: 5px;
+  border-radius: 30px;
+  font-weight: 400;
+}
+.btn:hover {
+  span{
+    background-color: #fff;
+    color: black;
+  }
+  background-color:#1cca59 ;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+@media only screen and (max-width: 768px) {
+  .card{
+    width: 320px;
+    height: 122px;
+
+  }
+  .container{
+    width: 98%;
+    margin: 1rem auto;
+  }
+  .bir{
+    margin-top: -1rem;
+  }
+  .btn2{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    margin-top: 2rem;
+  }
+  .btn{
+    padding: 15px;
+    margin-top: 0.5rem;
+  }
+}
