@@ -14,7 +14,7 @@ const card=[
   {
     id:2,
     document:'📄',
-    muddati:'Годовой отчет по итогам 2023 года (17.05.2024)',
+    muddati:'Годовой отчет по итогам 2023 года ',
     hajmi:'PDF, 440 Kb',
     yuklash:"✅"
   },
@@ -42,7 +42,7 @@ const card=[
   {
     id:6,
     document:'📄',
-    muddati:'Годовой отчет по итогам 2022 года (26.05.2023)',
+    muddati:'Годовой отчет по итогам 2022 года ',
     hajmi:'PDF, 440 Kb',
     yuklash:"✅"
   },
@@ -202,6 +202,10 @@ function Booklist(){
            
           </ul>
           <button className='media'>📊</button>
+          <div className='btn5'>
+            <h1 className='btn3'><span className='pul1'>$  12 900</span> <span className='olish'>Купить</span> <span className='pul2'>13 000</span> <span className='sotish'>Продать</span></h1>
+            <button className='bank'>Интернет-банк</button>
+          </div>
           </div>
         </main>
       <div className='container'>

@@ -6,8 +6,8 @@ body{
   background-color: #f0f2f5;
 }
 .card{
-  width: 288px;
-  height: 178px;
+  width: 20%;
+  height: 10%;
   background-color: white;
   border-radius: 10px;
   padding: 1.4rem;
@@ -20,6 +20,8 @@ body{
 }
 .muddati{
   margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
 }
 .container{
   width:  95%;
@@ -30,10 +32,11 @@ body{
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 1.2rem;
 }
 .btn{
   padding: 14px 18px;
+  width:  110px;
   cursor: pointer;
   border-radius: 2.4rem;
   border: none;
@@ -63,7 +66,7 @@ body{
 .h1{
   font-weight: bold;
   font-size: 2.5rem;
-  margin-top: 5rem;
+  margin-top: 8rem;
 
 }
 .li a{
@@ -121,6 +124,62 @@ img{
   margin-left: 3rem;
 
 }
+.btn3{
+  font-size: 16px;
+  width: 150px;
+  position: relative;
+  background-color: #E5EAF0;
+  padding: 5px;
+  height: 35px;
+  margin-left: 30rem;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.pul1{
+  position: absolute;
+  bottom: 5px;
+  left: 15px;
+}
+.sotish{
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  font-size: 13px;
+  font-weight: 100;
+}
+.pul2{
+  position: absolute;
+  bottom: 5px;
+  right: 15px;
+}
+.olish{
+  position: absolute;
+  top: 5px;
+  left: 15px;
+  font-weight: 100;
+  font-size: 13px;
+}
+.bank{
+  padding: 1rem 1.5rem;
+  color: black;
+  background-color: #fff;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+
+}
+.bank:hover{
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  background-color: #1cca59;
+  color: white;
+}
+.btn5{
+  display: flex;
+  position: absolute;
+  right: 5.5%;
+  gap: 1rem;
+}
 @media only screen and (max-width: 768px) {
   .card{
     width: 320px;
@@ -140,7 +199,8 @@ img{
   .btn2{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 2rem;
+    width: 100%;
+    margin: 2rem 0.3rem;
   }
   .btn{
     padding: 13px;
@@ -149,7 +209,7 @@ img{
   .h1{
     margin-bottom: -1rem;
   }
-  .nav ul{
+  .nav ul, .bank, .btn5{
     display: none;
   }
   .media{
