@@ -180,10 +180,34 @@ const btn=[
     span:24,
   },
 ]
+const li=[
+  'Существенные факты',
+  'Отчеты',
+  'Эмиссия',
+  'Дивиденды',
+  'Еще'
+]
 function Booklist(){
   return (
     <>
+    <main className='nav'>
+          <div className='nav1'>
+          <img src='https://hamkorbank.uz/assets/images/static/logo.svg'></img>
+          <ul>
+            {
+              li.map((li)=>{
+                return <li className='li'><a href='#'>{li}</a></li>
+              })
+            }
+           
+          </ul>
+          <button className='media'>📊</button>
+          </div>
+        </main>
       <div className='container'>
+        
+      <h1 className='h1'>Отчеты</h1>
+
     <div className='btn2'>
       {
         btn.map((btn)=>{
