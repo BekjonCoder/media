@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Card from './companets/card'
 import Btn from './companets/btn'
+import Footer from './companets/footer'
 const card=[
   {
     id:1,
@@ -187,6 +188,29 @@ const li=[
   'Дивиденды',
   'Еще'
 ]
+const footer=[
+  {
+    id:1,
+    bankamat:'Отделения и банкоматы',
+    valyuta:'Курсы валют',
+    kabinet:'Личный кабинет',
+    svyaz:'Обратная связь'
+  },
+  {
+    id:2,
+    bankamat:'Отделения и банкоматы',
+    valyuta:'Курсы валют',
+    kabinet:'Личный кабинет',
+    svyaz:'Обратная связь'
+  },
+  {
+    id:3,
+    bankamat:'Отделения и банкоматы',
+    valyuta:'Курсы валют',
+    kabinet:'Личный кабинет',
+    svyaz:'Обратная связь'
+  },
+]
 function Booklist(){
   return (
     <>
@@ -227,9 +251,13 @@ function Booklist(){
       })
     }
       </div>
+          <div>
           {
-
+            footer.map((item)=>{
+              return <Footer {...item} key={item.id}/>
+            })
           }
+          </div>
       </div>
     </>
 
