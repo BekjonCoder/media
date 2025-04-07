@@ -123,62 +123,62 @@ const btn=[
   {
     id:1,
     hammasi:'Все',
-    span:38,
+    span:3,
   },
   {
     id:2,
     hammasi:'2024',
-    span:23,
+    span:2,
   },
   {
     id:3,
     hammasi:'2023',
-    span:43,
+    span:4,
   },
   {
     id:4,
     hammasi:'2022',
-    span:34,
+    span:3,
   },
   {
     id:5,
     hammasi:'2021',
-    span:23,
+    span:3,
   },
   {
     id:6,
     hammasi:'2020',
-    span:74,
+    span:4,
   },
   {
     id:7,
     hammasi:'2019',
-    span:54,
+    span:5,
   },
   {
     id:8,
     hammasi:'2018',
-    span:24,
+    span:4,
   },
   {
     id:9,
     hammasi:'2017',
-    span:15,
+    span:5,
   },
   {
     id:10,
     hammasi:'2016',
-    span:62,
+    span:6,
   },
   {
     id:11,
     hammasi:'2015',
-    span:13,
+    span:1,
   },
   {
     id:12,
     hammasi:'2014',
-    span:24,
+    span:2,
   },
 ]
 const li=[

@@ -50,7 +50,7 @@ body{
 }
 .btn span{
   background-color:  #f0f2f5;
-  padding: 5px;
+  padding: 2.5px 7px;
   border-radius: 30px;
   font-weight: 400;
 }
@@ -270,7 +270,7 @@ img{
   .card{
     width: 320px;
     height: 122px;
-
+    margin:  0 auto;
   }
   .container{
     width: 98%;
@@ -287,6 +287,7 @@ img{
     flex-wrap: wrap;
     width: 100%;
     margin: 2rem 0.3rem;
+    margin-left: 0.7rem;
   }
   .btn{
     padding: 13px;
@@ -294,6 +295,7 @@ img{
   }
   .h1{
     margin-bottom: -1rem;
+    margin-left: 0.7rem;
   }
   .nav ul, .bank, .btn5{
     display: none;
@@ -302,10 +304,13 @@ img{
     display: block;
   }
   .foot{
+    margin-left: 1rem;
     display: block;
   }
   .foot2{
     line-height: 4rem;
     display: block;
+    margin-left: 1rem;
+
   }
 }
