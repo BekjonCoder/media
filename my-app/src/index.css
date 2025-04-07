@@ -180,6 +180,92 @@ img{
   right: 5.5%;
   gap: 1rem;
 }
+.fUl{
+  display: block;
+  font-size: 1rem;
+}
+.fUl li:hover{
+  cursor: pointer;
+  color: #1cca59;
+}
+.footer{
+  width: 100%;
+  gap: 5rem;
+  padding: 2rem 0;
+  line-height: 2.2rem;
+  background-color: #DCE2EB;
+
+}
+.raqam{
+  line-height: 2.3rem;
+}
+.raqam h1{
+  cursor: pointer;
+}
+.foot{
+  width: 95%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+.mobil{
+  display: flex;
+}
+.mobil img{
+  width: 64px;
+  height: 64px;
+  border-radius: 1rem;
+}
+.h2{
+  font-size: 1rem;
+}
+.px{
+  width: 163px;
+  line-height: 30px;
+  margin-left: 1rem;
+  cursor: pointer;
+
+}
+.px p{
+  font-size: 14px;
+  color: gray;
+  line-height: 20px;
+  width: 70%;
+  margin-top: -0.3rem;
+}
+.foot2{
+  display: flex;
+  gap: 12.5rem;
+  width: 95%;
+  margin: 0 auto;
+}
+.foot2 button{
+  padding: 18px;
+  border-radius: 10px;
+  border: none;
+  background-color: #fff;
+  font-size: 1rem;
+}
+.foot2 button:hover{
+  background-color: #1cca59;
+  color: #fff;
+  cursor: pointer;
+}
+.icon{
+  display: flex;
+  gap: 3rem;
+  
+
+}
+.icon p{
+  cursor: pointer;
+  width: 50px;
+  height: 30px;
+  font-size: 1.5rem;
+}
+.icon p:hover{
+  color: #1cca59;
+}
 @media only screen and (max-width: 768px) {
   .card{
     width: 320px;
@@ -213,6 +299,13 @@ img{
     display: none;
   }
   .media{
+    display: block;
+  }
+  .foot{
+    display: block;
+  }
+  .foot2{
+    line-height: 4rem;
     display: block;
   }
 }

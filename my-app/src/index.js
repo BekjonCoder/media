@@ -205,12 +205,12 @@ const footer=[
   },
   {
     id:3,
-    bankamat:'Отделения и банкоматы',
+    bankamat:'Личный кабинет',
     valyuta:'Курсы валют',
-    kabinet:'Личный кабинет',
-    svyaz:'Обратная связь'
+    kabinet:'Отделения и банкоматы',
   },
 ]
+
 function Booklist(){
   return (
     <>
@@ -251,14 +251,40 @@ function Booklist(){
       })
     }
       </div>
-          <div>
+          
+      </div>
+      <div className='footer'>
+           <div className='foot'>
+           <div className='raqam'>
+              <h1>0 (800) 1 200 200, 1256</h1>
+              <p>Колл центр</p>
+              <h1>+ 998 (78) 150 91 25</h1>
+              <p>Колл центр</p>
+            </div>
           {
+
             footer.map((item)=>{
               return <Footer {...item} key={item.id}/>
             })
           }
+          <div className='mobil'>
+            <img src='https://hamkorbank.uz/assets/images/static/mobile_app.svg' />
+            <div className='px'>
+              <h1 className='h2'>Мобильный банк</h1>
+              <p>Приложение для Android и iOS</p>
+            </div>
           </div>
-      </div>
+           </div>
+           <div className='foot2'>
+            <button>Сообщить о коррупции</button>
+            <div className='icon'>
+            <p>&#8497;</p>
+            <p>&#128247;</p>
+            <p>&#9654;</p>
+            <p>&#10146;</p>
+            </div>
+           </div>
+          </div>
     </>
 
   )
